@@ -29,7 +29,7 @@ class Solution:
         res.extend(left[i:])
         res.extend(right[j:])
         return res
-nums[5,1,1,2,0,0]
+nums=[5,1,1,2,0,0]
 S1=Solution()
 S1.sortArray(nums)
 
